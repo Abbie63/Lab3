@@ -3,10 +3,11 @@ import Actors.Soft;
 
 public class Main {
     public static void main(String[] args) {
-       Donut donut = new Donut("Ponchik");
-       Soft soft = new Soft("M9kish");
+       Donut donut = new Donut("Пончик");
+       Soft soft = new Soft("Мякиш");
 
        donut.action();
+       donut.talk();
        donut.jacket();
        donut.arrive();
        soft.jacket();

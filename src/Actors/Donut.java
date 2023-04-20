@@ -8,8 +8,12 @@ public class Donut extends Actor {
 
     @Override
     public void action() {
-        System.out.println(name + " сказал что все хорошо");
+        System.out.println("\"Вот и хорошо!\" сказал " + name);
 
+    }
+
+    public void talk() {
+        System.out.println("\"Увяжусь за этой желтой тужуркой и тоже попаду, куда мне надо. Все очень просто устроилось\" сказал " + name);
     }
 
     @Override
@@ -17,7 +21,7 @@ public class Donut extends Actor {
         System.out.println(name + " решает идти за тужуркой");
     }
     public void arrive() {
-        System.out.println(name + " прибыл в " + Location.CITY + " и вылез из " + Location.CARRIAGE);
+        System.out.println(name + " прибыл в " + Location.CITY + " покинув " + Location.CARRIAGE);
     }
     public void crowdFinding() {
         System.out.println(name + " был внимателен в " + Location.CROWD);

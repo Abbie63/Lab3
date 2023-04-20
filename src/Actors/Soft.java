@@ -15,6 +15,6 @@ public class Soft extends Actor {
         System.out.println(name + " идет в тужурке");
     }
     public void moving() {
-        System.out.println(name + " прятался за " + Location.HOUSE_ANGLE);
+        System.out.println(name + " прятался за " + Location.HOUSE_ANGLE + " и бросался в обратную сторону");
     }
 }
